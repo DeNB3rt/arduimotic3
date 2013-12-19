@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.genius.gTicket"
+        version   = "0.9.9">
+    <name>gTicket</name>
+
+    <description>
+        gTicket Mobile Admittance
+    </description>
+
+    <author href="http://www.genius.be" email="support@genius.be">
+        Genius Technology Solutions 
+    </author>
+
+    <icon src="icon.png"/>
+    <gap:splash src="splash.png"/>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="phonegap-version" value="2.0.0" />
+    <preference name="orientation"      value="portrait" />
+    <preference name="target-device"    value="handset" />
+    <preference name="fullscreen"       value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="stay-in-webview" value="true" />
+</widget>
+<plugin name="SoftKeyBoard" value="org.apache.cordova.plugins.SoftKeyBoard" />
